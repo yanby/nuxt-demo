@@ -12,7 +12,7 @@ export function fetch(config){
       // 请求超时
       timeout: 5000,
       //定义请求根目录
-      baseURL: 'http://api.zpb.yingshangchina.com'
+      baseURL: 'http://api.zpb.youpuchina.com'
     });
     //请求成功后执行的函数
     instance(config).then(res =>{
